@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy bird</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Bungee&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Monomakh&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <div class="assets">
+        <img id="background" src="./public/background.png" alt="background img">
+        <img id="player_fish" src="./public/player_fish.png" alt="player">
+        <img id="obstacles" src="./public/smallGears.png"  alt="obstacles">
+        <audio id="charge" src="./public/charge.mp3"></audio>
+        <audio id="flap1" src="./public/flap1.mp3"></audio>
+        <audio id="flap2" src="./public/flap2.mp3"></audio>
+        <audio id="flap3" src="./public/flap3.mp3"></audio>
+        <audio id="flap4" src="./public/flap4.mp3"></audio>
+        <audio id="flap5" src="./public/flap5.mp3"></audio>
+        <audio id="win" src="./public/win.mp3"></audio>
+        <audio id="lose" src="./public/lose.mp3"></audio>
+        <audio id="moremoro" src="./public/moremoro.mp4"></audio>
+        <audio id="chakala" src="./public/chakala.mp4"></audio>
+    </div>
+    <div id="video">
+        <video src="./public/Rotate Your Phone.mp4" autoplay muted loop ></video>
+    </div>
+    <script src="./src/audio.js"></script>
+    <script src="./src/obstacle.js"></script>
+    <script src="./src/background.js"></script>
+    <script src="./src/player.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
